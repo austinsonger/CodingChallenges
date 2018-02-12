@@ -1,0 +1,105 @@
+.pf-container {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	&:before {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	padding: 0.01em 16px;
+}
+.pf-panel {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	&:before {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	padding: 0.01em 16px;
+	margin-top: 16px !important;
+	margin-bottom: 16px !important;
+}
+.pf-badge {
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+	border-radius: 50%;
+}
+.pf-tag {
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+}
+
+ul.pf-ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	li {
+		padding: 6px 2px 6px 16px;
+		border-bottom: 1px solid #ddd;
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+}
+
+.pf-display-container {
+	position: relative;
+	&:hover {
+		.pf-display-hover {
+			display: block;
+		}
+		span.pf-display-hover {
+			display: inline-block;
+		}
+	}
+}
+
+.pf-example {
+	background-color: #f1f1f1;
+	padding: 0.01em 16px;
+	margin: 20px 0;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+
+.pf-code {
+	font-family: Consolas, "courier new";
+	font-size: 16px;
+	line-height: 1.4;
+	width: auto;
+	background-color: #fff;
+	padding: 8px 12px;
+	border-left: 4px solid #4CAF50;
+	word-wrap: break-word;
+	margin: 20px 0;
+}
+.pf-codespan {
+	font-family: Consolas, "courier new";
+	font-size: 16px;
+	color: crimson;
+	background-color: #f1f1f1;
+	padding-left: 4px;
+	padding-right: 4px;
+	font-size: 110%;
+}
+
+
+
+
+
+

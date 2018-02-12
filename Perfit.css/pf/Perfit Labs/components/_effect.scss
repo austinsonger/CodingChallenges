@@ -1,0 +1,64 @@
+.pf-opacity {
+	opacity: 0.60;
+	-webkit-backface-visibility: hidden;
+}
+.pf-opacity-off {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+}
+.pf-opacity-max {
+	opacity: 0.25;
+	-webkit-backface-visibility: hidden;
+}
+.pf-opacity-min {
+	opacity: 0.75;
+	-webkit-backface-visibility: hidden;
+}
+.pf-greyscale {
+	-webkit-filter: grayscale(75%);
+	filter: grayscale(75%);
+}
+.pf-grayscale {
+	-webkit-filter: grayscale(75%);
+	filter: grayscale(75%);
+}
+.pf-greyscale-min {
+	-webkit-filter: grayscale(50%);
+	filter: grayscale(50%);
+}
+.pf-grayscale-min {
+	-webkit-filter: grayscale(50%);
+	filter: grayscale(50%);
+}
+.pf-greyscale-max {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.pf-grayscale-max {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.pf-sepia {
+	-webkit-filter: sepia(75%);
+	filter: sepia(75%);
+}
+.pf-sepia-min {
+	-webkit-filter: sepia(50%);
+	filter: sepia(50%);
+}
+.pf-sepia-max {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+}
+.pf-overlay {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 2;
+}

@@ -1,0 +1,105 @@
+.pf-btn 
+	@extend %extend_5
+	//If you use compass, instead of the line below you could use + user-select($select)
+	user-select: none
+	//If you use compass, instead of the line below you could use + transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: background-color .25s, color .15s, box-shadow .15s, opacity .25s, filter .25s, border .15s
+	&:hover 
+		//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 8px 16px 0 $black_20, 0 6px 20px 0 $black_19
+
+	&:disabled 
+		cursor: not-allowed
+		opacity: 0.3
+		&:hover 
+			//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none
+
+
+	&.pf-disabled:hover 
+		//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none
+
+
+.pf-btn-block 
+	@extend %extend_5
+	//If you use compass, instead of the line below you could use + user-select($select)
+	user-select: none
+	width: 100%
+	//If you use compass, instead of the line below you could use + transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: background-color .25s, color .15s, box-shadow .15s, opacity .25s, filter .25s, border .15s
+	&:hover 
+		//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 8px 16px 0 $black_20, 0 6px 20px 0 $black_19
+
+	&.pf-disabled:hover 
+		//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none
+
+
+.pf-button 
+	@extend %extend_5
+	color: $black
+	background-color: $seashell
+	padding: 8px 16px
+	//If you use compass, instead of the line below you could use + user-select($select)
+	user-select: none
+	&:hover 
+		color: $black!important
+		background-color: $color_celeste_approx!important
+
+	&:disabled 
+		cursor: not-allowed
+		opacity: 0.3
+
+
+.pf-btn-floating 
+	//If you use compass, instead of the line below you could use + user-select($select)
+	user-select: none
+	@extend %extend_6
+	width: 40px
+	height: 40px
+	line-height: 40px
+	//If you use compass, instead of the line below you could use + transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: background-color .25s, color .15s, box-shadow .15s, opacity .25s, filter .25s, border .15s
+	&:hover 
+		//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 8px 16px 0 $black_20, 0 6px 20px 0 $black_19
+
+	&:disabled 
+		cursor: not-allowed
+		opacity: 0.3
+		&:hover 
+			//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none
+
+
+	&.pf-disabled:hover 
+		//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none
+
+
+.pf-btn-floating-large 
+	//If you use compass, instead of the line below you could use + user-select($select)
+	user-select: none
+	@extend %extend_6
+	width: 56px
+	height: 56px
+	line-height: 56px
+	//If you use compass, instead of the line below you could use + transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: background-color .25s, color .15s, box-shadow .15s, opacity .25s, filter .25s, border .15s
+	&:hover 
+		//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 8px 16px 0 $black_20, 0 6px 20px 0 $black_19
+
+	&:disabled 
+		cursor: not-allowed
+		opacity: 0.3
+		&:hover 
+			//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none
+
+
+	&.pf-disabled:hover 
+		//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none

@@ -1,0 +1,221 @@
+@media(max-width:600px) 
+	.pf-modal-content 
+		margin: 0 10px
+		width: auto!important
+
+	.pf-modal 
+		padding-top: 30px
+
+	.pf-topnav 
+		text-align: center
+		a 
+			display: block
+
+		.pf-dropdown-hover .pf-dropdown-content 
+			position: relative
+
+
+	.pf-navbar 
+		text-align: center
+		li 
+			&.pf-right 
+				float: none!important
+
+			&:not(.pf-opennav) 
+				float: none
+				width: 100%!important
+
+
+		.pf-dropdown-click .pf-dropdown-content 
+			position: relative
+
+		.pf-dropdown-hover .pf-dropdown-content 
+			position: relative
+
+
+	.pf-hide-small 
+		display: none!important
+
+	.pf-layout-col 
+		display: block
+		width: 100%!important
+
+	.pf-mobile 
+		display: block
+		width: 100%!important
+
+	.pf-dropdown-hover.pf-mobile 
+		text-align: center
+		width: 100%
+		.pf-dropdown-content 
+			position: relative
+
+		.pf-btn 
+			width: 100%
+
+		.pf-button 
+			width: 100%
+
+
+	.pf-dropdown-click.pf-mobile 
+		text-align: center
+		width: 100%
+		.pf-dropdown-content 
+			position: relative
+
+		.pf-btn 
+			width: 100%
+
+		.pf-button 
+			width: 100%
+
+
+	.pf-bar-item.pf-mobile 
+		text-align: center
+
+
+@media(max-width:768px) 
+	.pf-modal-content 
+		width: 500px
+
+	.pf-modal 
+		padding-top: 50px
+
+
+@media(max-width:992px) and(min-width:601px) 
+	.pf-hide-medium 
+		display: none!important
+
+
+@media(max-width:992px) 
+	.pf-main 
+		margin-left: 0!important
+		margin-right: 0!important
+
+	.pf-sidenav.pf-collapse 
+		display: none
+
+	.pf-sidebar.pf-collapse 
+		display: none
+
+
+@media(min-width:601px) 
+	.pf-col 
+		&.m1 
+			width: 8.33333%
+
+		&.m2 
+			width: 16.66666%
+
+		&.m3 
+			width: 24.99999%
+
+		&.m4 
+			width: 33.33333%
+
+		&.m5 
+			width: 41.66666%
+
+		&.m6 
+			width: 49.99999%
+
+		&.m7 
+			width: 58.33333%
+
+		&.m8 
+			width: 66.66666%
+
+		&.m9 
+			width: 74.99999%
+
+		&.m10 
+			width: 83.33333%
+
+		&.m11 
+			width: 91.66666%
+
+		&.m12 
+			width: 99.99999%
+
+
+	.pf-quarter 
+		width: 24.99999%
+
+	.pf-third 
+		width: 33.33333%
+
+	.pf-half 
+		width: 49.99999%
+
+	.pf-twothird 
+		width: 66.66666%
+
+	.pf-threequarter 
+		width: 74.99999%
+
+
+@media(min-width:993px) 
+	.pf-col 
+		&.l1 
+			width: 8.33333%
+
+		&.l2 
+			width: 16.66666%
+
+		&.l3 
+			width: 24.99999%
+
+		&.l4 
+			width: 33.33333%
+
+		&.l5 
+			width: 41.66666%
+
+		&.l6 
+			width: 49.99999%
+
+		&.l7 
+			width: 58.33333%
+
+		&.l8 
+			width: 66.66666%
+
+		&.l9 
+			width: 74.99999%
+
+		&.l10 
+			width: 83.33333%
+
+		&.l11 
+			width: 91.66666%
+
+		&.l12 
+			width: 99.99999%
+
+
+	.pf-quarter 
+		width: 24.99999%
+
+	.pf-third 
+		width: 33.33333%
+
+	.pf-half 
+		width: 49.99999%
+
+	.pf-twothird 
+		width: 66.66666%
+
+	.pf-threequarter 
+		width: 74.99999%
+
+	.pf-modal-content 
+		width: 900px
+
+	.pf-hide-large 
+		display: none!important
+
+	.pf-sidenav.pf-collapse 
+		display: block!important
+
+	.pf-sidebar.pf-collapse 
+		display: block!important

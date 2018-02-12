@@ -1,0 +1,29 @@
+.pf-cell-row {
+	&:before {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	display: table;
+	width: 100%;
+}
+
+.pf-cell {
+	display: table-cell;
+}
+
+.pf-cell-top {
+	vertical-align: top;
+}
+
+.pf-cell-middle {
+	vertical-align: middle;
+}
+.pf-cell-bottom {
+	vertical-align: bottom;
+}

@@ -1,0 +1,147 @@
+.pf-center {
+	.pf-bar {
+		display: inline-block;
+		width: auto;
+	}
+	text-align: center !important;
+}
+
+.pf-left {
+	float: left !important;
+}
+.pf-right {
+	float: right !important;
+}
+
+.pf-top {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+}
+.pf-bottom {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	bottom: 0;
+}
+
+.pf-left-align {
+	text-align: left !important;
+}
+.pf-right-align {
+	text-align: right !important;
+}
+
+.pf-hide {
+	display: none !important;
+}
+.pf-show-block {
+	display: block !important;
+}
+.pf-show {
+	display: block !important;
+}
+.pf-show-inline-block {
+	display: inline-block !important;
+}
+
+.pf-circle {
+	border-radius: 50% !important;
+}
+
+.pf-layout-container {
+	display: table;
+	width: 100%;
+}
+.pf-layout-row {
+	display: table-row;
+}
+.pf-layout-cell {
+	display: table-cell;
+}
+.pf-layout-col {
+	display: table-cell;
+}
+
+.pf-layout-top {
+	vertical-align: top;
+}
+
+.pf-layout-middle {
+	vertical-align: middle;
+}
+
+.pf-layout-bottom {
+	vertical-align: bottom;
+}
+
+
+
+
+
+
+
+
+
+.pf-justify {
+	text-align: justify !important;
+}
+.pf-display-topleft {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.pf-display-topright {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.pf-display-bottomleft {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.pf-display-bottomright {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.pf-display-middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+.pf-display-left {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	transform: translate(0%, -50%);
+	-ms-transform: translate(-0%, -50%);
+}
+.pf-display-right {
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	transform: translate(0%, -50%);
+	-ms-transform: translate(0%, -50%);
+}
+.pf-display-topmiddle {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+}
+.pf-display-bottommiddle {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+}
+.pf-display-hover {
+	display: none;
+}

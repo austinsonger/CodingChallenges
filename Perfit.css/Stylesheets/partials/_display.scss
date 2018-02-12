@@ -1,0 +1,57 @@
+.pf-display-topleft 
+	position: absolute
+	left: 0
+	top: 0
+
+.pf-display-topright 
+	position: absolute
+	right: 0
+	top: 0
+
+.pf-display-bottomleft 
+	position: absolute
+	left: 0
+	bottom: 0
+
+.pf-display-bottomright 
+	position: absolute
+	right: 0
+	bottom: 0
+
+.pf-display-middle 
+	position: absolute
+	top: 50%
+	left: 50%
+	//If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate(-50%, -50%)
+
+.pf-display-left 
+	position: absolute
+	top: 50%
+	left: 0
+	//If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate(0%, -50%)
+
+.pf-display-right 
+	position: absolute
+	top: 50%
+	right: 0
+	//If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate(0%, -50%)
+
+.pf-display-topmiddle 
+	position: absolute
+	left: 50%
+	top: 0
+	//If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate(-50%, 0)
+
+.pf-display-bottommiddle 
+	position: absolute
+	left: 50%
+	bottom: 0
+	//If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate(-50%, 0)
+
+.pf-display-hover 
+	display: none

@@ -1,0 +1,125 @@
+.pf-table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	display: table;
+	td {
+		padding: 8px 8px;
+		display: table-cell;
+		text-align: left;
+		vertical-align: top;
+		&:first-child {
+			padding-left: 16px;
+		}
+	}
+	th {
+		padding: 8px 8px;
+		display: table-cell;
+		text-align: left;
+		vertical-align: top;
+		&:first-child {
+			padding-left: 16px;
+		}
+	}
+}
+.pf-table-all {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	display: table;
+	border: 1px solid #ccc;
+	tr {
+		border-bottom: 1px solid #ddd;
+		&:nth-child(odd) {
+			background-color: #fff;
+		}
+		&:nth-child(even) {
+			background-color: #f1f1f1;
+		}
+	}
+	td {
+		padding: 8px 8px;
+		display: table-cell;
+		text-align: left;
+		vertical-align: top;
+		&:first-child {
+			padding-left: 16px;
+		}
+	}
+	th {
+		padding: 8px 8px;
+		display: table-cell;
+		text-align: left;
+		vertical-align: top;
+		&:first-child {
+			padding-left: 16px;
+		}
+	}
+}
+
+.pf-striped {
+	tbody {
+		tr {
+			&:nth-child(even) {
+				background-color: #f1f1f1;
+			}
+		}
+	}
+}
+
+.pf-border-0 {
+	border: 0 !important;
+}
+.pf-border {
+	border: 1px solid #ccc !important;
+}
+.pf-border-top {
+	border-top: 1px solid #ccc !important;
+}
+.pf-border-bottom {
+	border-bottom: 1px solid #ccc !important;
+}
+.pf-border-left {
+	border-left: 1px solid #ccc !important;
+}
+.pf-border-right {
+	border-right: 1px solid #ccc !important;
+}
+
+.pf-bordered {
+	tr {
+		border-bottom: 1px solid #ddd;
+	}
+}
+.pf-centered {
+	tr {
+		th {
+			text-align: center;
+		}
+		td {
+			text-align: center;
+		}
+	}
+}
+.pf-hoverable {
+	tbody {
+		tr {
+			&:hover {
+				background-color: #ccc;
+			}
+			-webkit-transition: background-color .25s, color .15s, box-shadow .25s, opacity 0.25s, filter 0.25s, border 0.15s;
+			transition: background-color .25s, color .15s, box-shadow .15s, opacity .25s, filter .25s, border .15s;
+		}
+	}
+	li {
+		-webkit-transition: background-color .25s, color .15s, box-shadow .25s, opacity 0.25s, filter 0.25s, border 0.15s;
+		transition: background-color .25s, color .15s, box-shadow .15s, opacity .25s, filter .25s, border .15s;
+	}
+}
+.pf-ul.pf-hoverable {
+	li {
+		&:hover {
+			background-color: #ccc;
+		}
+	}
+}

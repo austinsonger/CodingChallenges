@@ -1,0 +1,33 @@
+
+.pf-animate-fading {
+	-webkit-animation: fading 10s infinite;
+	animation: fading 10s infinite;
+}
+.pf-animate-opacity {
+	-webkit-animation: opac 0.8s;
+	animation: opac 0.8s;
+}
+.pf-animate-top {
+	position: relative;
+	-webkit-animation: animatetop 0.4s;
+	animation: animatetop 0.4s;
+}
+.pf-animate-left {
+	position: relative;
+	-webkit-animation: animateleft 0.4s;
+	animation: animateleft 0.4s;
+}
+.pf-animate-right {
+	position: relative;
+	-webkit-animation: animateright 0.4s;
+	animation: animateright 0.4s;
+}
+.pf-animate-bottom {
+	position: relative;
+	-webkit-animation: animatebottom 0.4s;
+	animation: animatebottom 0.4s;
+}
+.pf-animate-zoom {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s;
+}

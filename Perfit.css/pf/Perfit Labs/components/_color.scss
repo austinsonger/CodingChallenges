@@ -1,0 +1,855 @@
+.pf-text-amber {
+	color: #ffc107 !important;
+}
+.pf-hover-text-amber {
+	&:hover {
+		color: #ffc107 !important;
+	}
+}
+.pf-text-aqua {
+	color: #00ffff !important;
+}
+.pf-hover-text-aqua {
+	&:hover {
+		color: #00ffff !important;
+	}
+}
+.pf-text-blue {
+	color: #2196F3 !important;
+}
+.pf-hover-text-blue {
+	&:hover {
+		color: #2196F3 !important;
+	}
+}
+.pf-text-light-blue {
+	color: #87CEEB !important;
+}
+.pf-hover-text-light-blue {
+	&:hover {
+		color: #87CEEB !important;
+	}
+}
+.pf-text-brown {
+	color: #795548 !important;
+}
+.pf-hover-text-brown {
+	&:hover {
+		color: #795548 !important;
+	}
+}
+.pf-text-cyan {
+	color: #00bcd4 !important;
+}
+.pf-hover-text-cyan {
+	&:hover {
+		color: #00bcd4 !important;
+	}
+}
+.pf-text-blue-grey {
+	color: #607d8b !important;
+}
+.pf-hover-text-blue-grey {
+	&:hover {
+		color: #607d8b !important;
+	}
+}
+.pf-text-blue-gray {
+	color: #607d8b !important;
+}
+.pf-hover-text-blue-gray {
+	&:hover {
+		color: #607d8b !important;
+	}
+}
+.pf-text-green {
+	color: #4CAF50 !important;
+}
+.pf-hover-text-green {
+	&:hover {
+		color: #4CAF50 !important;
+	}
+}
+.pf-text-light-green {
+	color: #8bc34a !important;
+}
+.pf-hover-text-light-green {
+	&:hover {
+		color: #8bc34a !important;
+	}
+}
+.pf-text-indigo {
+	color: #3f51b5 !important;
+}
+.pf-hover-text-indigo {
+	&:hover {
+		color: #3f51b5 !important;
+	}
+}
+.pf-text-khaki {
+	color: #b4aa50 !important;
+}
+.pf-hover-text-khaki {
+	&:hover {
+		color: #b4aa50 !important;
+	}
+}
+.pf-text-lime {
+	color: #cddc39 !important;
+}
+.pf-hover-text-lime {
+	&:hover {
+		color: #cddc39 !important;
+	}
+}
+.pf-text-orange {
+	color: #ff9800 !important;
+}
+.pf-hover-text-orange {
+	&:hover {
+		color: #ff9800 !important;
+	}
+}
+.pf-text-deep-orange {
+	color: #ff5722 !important;
+}
+.pf-hover-text-deep-orange {
+	&:hover {
+		color: #ff5722 !important;
+	}
+}
+.pf-text-pink {
+	color: #e91e63 !important;
+}
+.pf-hover-text-pink {
+	&:hover {
+		color: #e91e63 !important;
+	}
+}
+.pf-text-purple {
+	color: #9c27b0 !important;
+}
+.pf-hover-text-purple {
+	&:hover {
+		color: #9c27b0 !important;
+	}
+}
+.pf-text-deep-purple {
+	color: #673ab7 !important;
+}
+.pf-hover-text-deep-purple {
+	&:hover {
+		color: #673ab7 !important;
+	}
+}
+.pf-text-red {
+	color: #f44336 !important;
+}
+.pf-hover-text-red {
+	&:hover {
+		color: #f44336 !important;
+	}
+}
+.pf-text-sand {
+	color: #fdf5e6 !important;
+}
+.pf-hover-text-sand {
+	&:hover {
+		color: #fdf5e6 !important;
+	}
+}
+.pf-text-teal {
+	color: #009688 !important;
+}
+.pf-hover-text-teal {
+	&:hover {
+		color: #009688 !important;
+	}
+}
+.pf-text-yellow {
+	color: #d2be0e !important;
+}
+.pf-hover-text-yellow {
+	&:hover {
+		color: #d2be0e !important;
+	}
+}
+.pf-text-white {
+	color: #fff !important;
+}
+.pf-hover-text-white {
+	&:hover {
+		color: #fff !important;
+	}
+}
+.pf-text-black {
+	color: #000 !important;
+}
+.pf-hover-text-black {
+	&:hover {
+		color: #000 !important;
+	}
+}
+.pf-text-grey {
+	color: #757575 !important;
+}
+.pf-hover-text-grey {
+	&:hover {
+		color: #757575 !important;
+	}
+}
+.pf-text-gray {
+	color: #757575 !important;
+}
+.pf-hover-text-gray {
+	&:hover {
+		color: #757575 !important;
+	}
+}
+.pf-text-light-grey {
+	color: #f1f1f1 !important;
+}
+.pf-hover-text-light-grey {
+	&:hover {
+		color: #f1f1f1 !important;
+	}
+}
+.pf-text-light-gray {
+	color: #f1f1f1 !important;
+}
+.pf-hover-text-light-gray {
+	&:hover {
+		color: #f1f1f1 !important;
+	}
+}
+.pf-text-dark-grey {
+	color: #3a3a3a !important;
+}
+.pf-hover-text-dark-grey {
+	&:hover {
+		color: #3a3a3a !important;
+	}
+}
+.pf-text-dark-gray {
+	color: #3a3a3a !important;
+}
+
+.pf-amber {
+	color: #000 !important;
+	background-color: #ffc107 !important;
+}
+.pf-hover-amber {
+	&:hover {
+		color: #000 !important;
+		background-color: #ffc107 !important;
+	}
+}
+.pf-aqua {
+	color: #000 !important;
+	background-color: #00ffff !important;
+}
+.pf-hover-aqua {
+	&:hover {
+		color: #000 !important;
+		background-color: #00ffff !important;
+	}
+}
+.pf-blue {
+	color: #fff !important;
+	background-color: #2196F3 !important;
+}
+.pf-hover-blue {
+	&:hover {
+		color: #fff !important;
+		background-color: #2196F3 !important;
+	}
+}
+.pf-light-blue {
+	color: #000 !important;
+	background-color: #87CEEB !important;
+}
+.pf-hover-light-blue {
+	&:hover {
+		color: #000 !important;
+		background-color: #87CEEB !important;
+	}
+}
+.pf-brown {
+	color: #fff !important;
+	background-color: #795548 !important;
+}
+.pf-hover-brown {
+	&:hover {
+		color: #fff !important;
+		background-color: #795548 !important;
+	}
+}
+.pf-cyan {
+	color: #000 !important;
+	background-color: #00bcd4 !important;
+}
+.pf-hover-cyan {
+	&:hover {
+		color: #000 !important;
+		background-color: #00bcd4 !important;
+	}
+}
+.pf-blue-grey {
+	color: #fff !important;
+	background-color: #607d8b !important;
+}
+.pf-hover-blue-grey {
+	&:hover {
+		color: #fff !important;
+		background-color: #607d8b !important;
+	}
+}
+.pf-blue-gray {
+	color: #fff !important;
+	background-color: #607d8b !important;
+}
+.pf-hover-blue-gray {
+	&:hover {
+		color: #fff !important;
+		background-color: #607d8b !important;
+	}
+}
+.pf-green {
+	color: #fff !important;
+	background-color: #4CAF50 !important;
+}
+.pf-hover-green {
+	&:hover {
+		color: #fff !important;
+		background-color: #4CAF50 !important;
+	}
+}
+.pf-light-green {
+	color: #000 !important;
+	background-color: #8bc34a !important;
+}
+.pf-hover-light-green {
+	&:hover {
+		color: #000 !important;
+		background-color: #8bc34a !important;
+	}
+}
+.pf-indigo {
+	color: #fff !important;
+	background-color: #3f51b5 !important;
+}
+.pf-hover-indigo {
+	&:hover {
+		color: #fff !important;
+		background-color: #3f51b5 !important;
+	}
+}
+.pf-khaki {
+	color: #000 !important;
+	background-color: #f0e68c !important;
+}
+.pf-hover-khaki {
+	&:hover {
+		color: #000 !important;
+		background-color: #f0e68c !important;
+	}
+}
+.pf-lime {
+	color: #000 !important;
+	background-color: #cddc39 !important;
+}
+.pf-hover-lime {
+	&:hover {
+		color: #000 !important;
+		background-color: #cddc39 !important;
+	}
+}
+.pf-orange {
+	color: #000 !important;
+	background-color: #ff9800 !important;
+}
+.pf-hover-orange {
+	&:hover {
+		color: #000 !important;
+		background-color: #ff9800 !important;
+	}
+}
+.pf-deep-orange {
+	color: #fff !important;
+	background-color: #ff5722 !important;
+}
+.pf-hover-deep-orange {
+	&:hover {
+		color: #fff !important;
+		background-color: #ff5722 !important;
+	}
+}
+.pf-pink {
+	color: #fff !important;
+	background-color: #e91e63 !important;
+}
+.pf-hover-pink {
+	&:hover {
+		color: #fff !important;
+		background-color: #e91e63 !important;
+	}
+}
+.pf-purple {
+	color: #fff !important;
+	background-color: #9c27b0 !important;
+}
+.pf-hover-purple {
+	&:hover {
+		color: #fff !important;
+		background-color: #9c27b0 !important;
+	}
+}
+.pf-deep-purple {
+	color: #fff !important;
+	background-color: #673ab7 !important;
+}
+.pf-hover-deep-purple {
+	&:hover {
+		color: #fff !important;
+		background-color: #673ab7 !important;
+	}
+}
+.pf-red {
+	color: #fff !important;
+	background-color: #f44336 !important;
+}
+.pf-hover-red {
+	&:hover {
+		color: #fff !important;
+		background-color: #f44336 !important;
+	}
+}
+.pf-sand {
+	color: #000 !important;
+	background-color: #fdf5e6 !important;
+}
+.pf-hover-sand {
+	&:hover {
+		color: #000 !important;
+		background-color: #fdf5e6 !important;
+	}
+}
+.pf-teal {
+	color: #fff !important;
+	background-color: #009688 !important;
+}
+.pf-hover-teal {
+	&:hover {
+		color: #fff !important;
+		background-color: #009688 !important;
+	}
+}
+.pf-yellow {
+	color: #000 !important;
+	background-color: #ffeb3b !important;
+}
+.pf-hover-yellow {
+	&:hover {
+		color: #000 !important;
+		background-color: #ffeb3b !important;
+	}
+}
+.pf-white {
+	color: #000 !important;
+	background-color: #fff !important;
+}
+.pf-hover-white {
+	&:hover {
+		color: #000 !important;
+		background-color: #fff !important;
+	}
+}
+.pf-black {
+	color: #fff !important;
+	background-color: #000 !important;
+}
+.pf-hover-black {
+	&:hover {
+		color: #fff !important;
+		background-color: #000 !important;
+	}
+}
+.pf-grey {
+	color: #000 !important;
+	background-color: #9e9e9e !important;
+}
+.pf-hover-grey {
+	&:hover {
+		color: #000 !important;
+		background-color: #9e9e9e !important;
+	}
+}
+.pf-gray {
+	color: #000 !important;
+	background-color: #9e9e9e !important;
+}
+.pf-hover-gray {
+	&:hover {
+		color: #000 !important;
+		background-color: #9e9e9e !important;
+	}
+}
+.pf-light-grey {
+	color: #000 !important;
+	background-color: #f1f1f1 !important;
+}
+.pf-hover-light-grey {
+	&:hover {
+		color: #000 !important;
+		background-color: #f1f1f1 !important;
+	}
+}
+.pf-light-gray {
+	color: #000 !important;
+	background-color: #f1f1f1 !important;
+}
+.pf-hover-light-gray {
+	&:hover {
+		color: #000 !important;
+		background-color: #f1f1f1 !important;
+	}
+}
+.pf-dark-grey {
+	color: #fff !important;
+	background-color: #616161 !important;
+}
+.pf-hover-dark-grey {
+	&:hover {
+		color: #fff !important;
+		background-color: #616161 !important;
+	}
+}
+.pf-dark-gray {
+	color: #fff !important;
+	background-color: #616161 !important;
+}
+.pf-hover-dark-gray {
+	&:hover {
+		color: #fff !important;
+		background-color: #616161 !important;
+	}
+}
+.pf-pale-red {
+	color: #000 !important;
+	background-color: #ffdddd !important;
+}
+.pf-hover-pale-red {
+	&:hover {
+		color: #000 !important;
+		background-color: #ffdddd !important;
+	}
+}
+.pf-pale-green {
+	color: #000 !important;
+	background-color: #ddffdd !important;
+}
+.pf-hover-pale-green {
+	&:hover {
+		color: #000 !important;
+		background-color: #ddffdd !important;
+	}
+}
+.pf-pale-yellow {
+	color: #000 !important;
+	background-color: #ffffcc !important;
+}
+.pf-hover-pale-yellow {
+	&:hover {
+		color: #000 !important;
+		background-color: #ffffcc !important;
+	}
+}
+.pf-pale-blue {
+	color: #000 !important;
+	background-color: #ddffff !important;
+}
+.pf-hover-pale-blue {
+	&:hover {
+		color: #000 !important;
+		background-color: #ddffff !important;
+	}
+}
+
+.pf-hover-text-dark-gray {
+	&:hover {
+		color: #3a3a3a !important;
+	}
+}
+
+.pf-border-amber {
+	border-color: #ffc107 !important;
+}
+.pf-hover-border-amber {
+	&:hover {
+		border-color: #ffc107 !important;
+	}
+}
+.pf-border-aqua {
+	border-color: #00ffff !important;
+}
+.pf-hover-border-aqua {
+	&:hover {
+		border-color: #00ffff !important;
+	}
+}
+.pf-border-blue {
+	border-color: #2196F3 !important;
+}
+.pf-hover-border-blue {
+	&:hover {
+		border-color: #2196F3 !important;
+	}
+}
+.pf-border-light-blue {
+	border-color: #87CEEB !important;
+}
+.pf-hover-border-light-blue {
+	&:hover {
+		border-color: #87CEEB !important;
+	}
+}
+.pf-border-brown {
+	border-color: #795548 !important;
+}
+.pf-hover-border-brown {
+	&:hover {
+		border-color: #795548 !important;
+	}
+}
+.pf-border-cyan {
+	border-color: #00bcd4 !important;
+}
+.pf-hover-border-cyan {
+	&:hover {
+		border-color: #00bcd4 !important;
+	}
+}
+.pf-border-blue-grey {
+	border-color: #607d8b !important;
+}
+.pf-hover-border-blue-grey {
+	&:hover {
+		border-color: #607d8b !important;
+	}
+}
+.pf-border-blue-gray {
+	border-color: #607d8b !important;
+}
+.pf-hover-border-blue-gray {
+	&:hover {
+		border-color: #607d8b !important;
+	}
+}
+.pf-border-green {
+	border-color: #4CAF50 !important;
+}
+.pf-hover-border-green {
+	&:hover {
+		border-color: #4CAF50 !important;
+	}
+}
+.pf-border-light-green {
+	border-color: #8bc34a !important;
+}
+.pf-hover-border-light-green {
+	&:hover {
+		border-color: #8bc34a !important;
+	}
+}
+.pf-border-indigo {
+	border-color: #3f51b5 !important;
+}
+.pf-hover-border-indigo {
+	&:hover {
+		border-color: #3f51b5 !important;
+	}
+}
+.pf-border-khaki {
+	border-color: #f0e68c !important;
+}
+.pf-hover-border-khaki {
+	&:hover {
+		border-color: #f0e68c !important;
+	}
+}
+.pf-border-lime {
+	border-color: #cddc39 !important;
+}
+.pf-hover-border-lime {
+	&:hover {
+		border-color: #cddc39 !important;
+	}
+}
+.pf-border-orange {
+	border-color: #ff9800 !important;
+}
+.pf-hover-border-orange {
+	&:hover {
+		border-color: #ff9800 !important;
+	}
+}
+.pf-border-deep-orange {
+	border-color: #ff5722 !important;
+}
+.pf-hover-border-deep-orange {
+	&:hover {
+		border-color: #ff5722 !important;
+	}
+}
+.pf-border-pink {
+	border-color: #e91e63 !important;
+}
+.pf-hover-border-pink {
+	&:hover {
+		border-color: #e91e63 !important;
+	}
+}
+.pf-border-purple {
+	border-color: #9c27b0 !important;
+}
+.pf-hover-border-purple {
+	&:hover {
+		border-color: #9c27b0 !important;
+	}
+}
+.pf-border-deep-purple {
+	border-color: #673ab7 !important;
+}
+.pf-hover-border-deep-purple {
+	&:hover {
+		border-color: #673ab7 !important;
+	}
+}
+.pf-border-red {
+	border-color: #f44336 !important;
+}
+.pf-hover-border-red {
+	&:hover {
+		border-color: #f44336 !important;
+	}
+}
+.pf-border-sand {
+	border-color: #fdf5e6 !important;
+}
+.pf-hover-border-sand {
+	&:hover {
+		border-color: #fdf5e6 !important;
+	}
+}
+.pf-border-teal {
+	border-color: #009688 !important;
+}
+.pf-hover-border-teal {
+	&:hover {
+		border-color: #009688 !important;
+	}
+}
+.pf-border-yellow {
+	border-color: #ffeb3b !important;
+}
+.pf-hover-border-yellow {
+	&:hover {
+		border-color: #ffeb3b !important;
+	}
+}
+.pf-border-white {
+	border-color: #fff !important;
+}
+.pf-hover-border-white {
+	&:hover {
+		border-color: #fff !important;
+	}
+}
+.pf-border-black {
+	border-color: #000 !important;
+}
+.pf-hover-border-black {
+	&:hover {
+		border-color: #000 !important;
+	}
+}
+.pf-border-grey {
+	border-color: #9e9e9e !important;
+}
+.pf-hover-border-grey {
+	&:hover {
+		border-color: #9e9e9e !important;
+	}
+}
+.pf-border-gray {
+	border-color: #9e9e9e !important;
+}
+.pf-hover-border-gray {
+	&:hover {
+		border-color: #9e9e9e !important;
+	}
+}
+.pf-border-light-grey {
+	border-color: #f1f1f1 !important;
+}
+.pf-hover-border-light-grey {
+	&:hover {
+		border-color: #f1f1f1 !important;
+	}
+}
+.pf-border-light-gray {
+	border-color: #f1f1f1 !important;
+}
+.pf-hover-border-light-gray {
+	&:hover {
+		border-color: #f1f1f1 !important;
+	}
+}
+.pf-border-dark-grey {
+	border-color: #616161 !important;
+}
+.pf-hover-border-dark-grey {
+	&:hover {
+		border-color: #616161 !important;
+	}
+}
+.pf-border-dark-gray {
+	border-color: #616161 !important;
+}
+.pf-hover-border-dark-gray {
+	&:hover {
+		border-color: #616161 !important;
+	}
+}
+.pf-border-pale-red {
+	border-color: #ffe7e7 !important;
+}
+.pf-hover-border-pale-red {
+	&:hover {
+		border-color: #ffe7e7 !important;
+	}
+}
+.pf-border-pale-green {
+	border-color: #e7ffe7 !important;
+}
+.pf-hover-border-pale-green {
+	&:hover {
+		border-color: #e7ffe7 !important;
+	}
+}
+.pf-border-pale-yellow {
+	border-color: #ffffcc !important;
+}
+.pf-hover-border-pale-yellow {
+	&:hover {
+		border-color: #ffffcc !important;
+	}
+}
+.pf-border-pale-blue {
+	border-color: #e7ffff !important;
+}
+.pf-hover-border-pale-blue {
+	&:hover {
+		border-color: #e7ffff !important;
+	}
+}

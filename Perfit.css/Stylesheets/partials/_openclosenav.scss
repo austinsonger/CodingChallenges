@@ -1,0 +1,20 @@
+.pf-closenav 
+	//If you use compass, instead of the line below you could use + user-select($select)
+	user-select: none
+	color: inherit
+	//If you use compass, instead of the line below you could use + transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: background-color .25s, color .15s, box-shadow .15s, opacity .25s, filter .25s, border .15s
+	&:hover 
+		cursor: pointer
+		opacity: 0.8
+
+
+.pf-opennav 
+	//If you use compass, instead of the line below you could use + user-select($select)
+	user-select: none
+	color: inherit
+	//If you use compass, instead of the line below you could use + transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: background-color .25s, color .15s, box-shadow .15s, opacity .25s, filter .25s, border .15s
+	&:hover 
+		cursor: pointer
+		opacity: 0.8

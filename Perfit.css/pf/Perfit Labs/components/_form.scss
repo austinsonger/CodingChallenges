@@ -1,0 +1,77 @@
+.pf-form {
+	padding: 8px 16px !important;
+}
+
+
+.pf-group {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+.pf-input {
+	padding: 8px;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #808080;
+	width: 100%;
+	&:not(:valid)~.pf-validate {
+		color: #f44336;
+	}
+}
+
+
+
+.pf-label {
+	color: #009688;
+}
+.pf-select {
+	padding: 9px 0;
+	width: 100%;
+	color: #000;
+	border: 1px solid transparent;
+	border-bottom: 1px solid #009688;
+	select {
+		&:focus {
+			color: #000;
+			border: 1px solid #009688;
+		}
+	}
+	option[disabled] {
+		color: #009688;
+	}
+}
+
+
+input[type=checkbox].pf-check {
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 6px;
+	&:checked+.pf-validate {
+		color: #009688;
+	}
+	&:disabled+.pf-validate {
+		color: #aaa;
+	}
+}
+input[type=radio].pf-radio {
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 6px;
+	&:checked+.pf-validate {
+		color: #009688;
+	}
+	&:disabled+.pf-validate {
+		color: #aaa;
+	}
+}
+
+
+.pf-animate-input {
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	&:focus {
+		width: 100% !important;
+	}
+}
+

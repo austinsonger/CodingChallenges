@@ -1,0 +1,14 @@
+.pf-input-group 
+	margin-top: 24px
+	margin-bottom: 24px
+
+.pf-input 
+	padding: 8px
+	display: block
+	border: none
+	border-bottom: 1px solid $gray
+	width: 100%
+	&:not(:valid) ~ .pf-validate 
+		color: $color_red_orange_approx
+
+

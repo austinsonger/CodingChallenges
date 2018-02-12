@@ -1,0 +1,37 @@
+.pf-table 
+	@extend %extend_3
+	td 
+		@extend %extend_4
+		&:first-child 
+			padding-left: 16px
+
+
+	th 
+		@extend %extend_4
+		&:first-child 
+			padding-left: 16px
+
+
+
+.pf-table-all 
+	@extend %extend_3
+	border: 1px solid $color_celeste_approx
+	tr 
+		border-bottom: 1px solid $color_alto_approx
+		&:nth-child(odd) 
+			background-color: $white
+
+		&:nth-child(even) 
+			background-color: $seashell
+
+
+	td 
+		@extend %extend_4
+		&:first-child 
+			padding-left: 16px
+
+
+	th 
+		@extend %extend_4
+		&:first-child 
+			padding-left: 16px
