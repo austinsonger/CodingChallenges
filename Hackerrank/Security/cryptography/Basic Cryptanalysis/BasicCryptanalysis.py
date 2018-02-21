@@ -1,10 +1,4 @@
-'''
-Title     : Basic Cryptanalysis
-Subdomain : Cryptography
-Domain    : Security
-Author    : Kalpak Seal
-Created   : 26 September 2016
-'''
+
 import sys
 
 alphabets_list = []  # List of lowercase English alphabets
